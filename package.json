@@ -1,0 +1,23 @@
+{
+  "name": "ruto-example",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch index.ts",
+    "gen": "ruto gen"
+  },
+  "keywords": [],
+  "author": "1704mori",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/node": "^20.10.3",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@fastify/autoload": "^5.8.0",
+    "fastify": "^4.24.3"
+  }
+}
